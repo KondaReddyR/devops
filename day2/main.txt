@@ -1,0 +1,37 @@
+Develop Simple Java Class program
+Run on command line
+Write a gradle build Script
+Invoke that gradle script from Jenkins
+
+
+Aix
+RHEL yum install
+Debian apt-get install
+osX:
+Windows:
+Windows 2000
+Windows10
+
+
+JDK installation:
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+
+Set Env Variables
+Add JDK to sytem PATH
+Set  JAVA_HOME env variable
+
+JDK & JVM
+
+To Compile:
+javac HelloWorld.java
+
+To Run:
+java HelloWorld
+Hello World!
+
+To Create Jar:
+jar cfm helloWorld.jar helloworld.mf HelloWorld.class
+
+To run a Jar:
+java -jar helloWorld.jar
