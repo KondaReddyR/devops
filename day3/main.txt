@@ -1,0 +1,53 @@
+Linux distros
+
+Families
+
+Debian - Debian
+        - Ubuntu
+        - Linux Mint
+Rhel
+  - RedHat
+  - CentOS
+  - Fedora
+Suse
+  -Suse
+  - OpenSuse
+
+How to install Linux
+- Remove Windows and Install Linux
+- Dual boot along side with Windows
+- hypervisor - virtual os
+- Use containers
+
+
+Vitrual b0x done
+
+
+Installing Jenkins
+  jdk - sudo apt-get install default-jdk
+  - Dowload Jenkins war file - http://ftp-chi.osuosl.org/pub/jenkins/war/2.12/jenkins.war
+  - Set Env variables
+      - java_home
+        which javac
+        ls -las /usr/bin/javac
+        ls -las /etc/alternatives/javac
+        ls /usr/lib/jvm/java-8-openjdk-amd64/
+
+        edit ~/.bashrc and add export below envs
+        export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+        export JENKINS_HOME=/workspace/jenkins_home
+
+        source ~/.bashrc
+
+        30 apt-get install nano
+         31  nano ~/.bashrc
+         32  cat ~/.bashrc
+         33  source ~/.bashrc
+         34  echo $JAVA_HOME
+
+
+      - jenkins_home
+
+
+
+      version MAJOR.MINOR.PATCH
