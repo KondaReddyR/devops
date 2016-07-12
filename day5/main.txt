@@ -1,0 +1,20 @@
+Docker Session
+
+
+#docker run -it ubuntu /bin/bash
+
+#docker ps -a
+
+#docker stop containerID
+
+#docker rm containerID
+
+#docker run -it ubuntu /bin/bash
+
+#docker images
+#docker rmi imageID
+
+#docker run -it ubuntu /bin/bash
+
+#Create a Docker Image
+#1 Create Dockerfile
