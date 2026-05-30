@@ -58,10 +58,16 @@ The initial project usually contains files like:
 
 ```text
 fastapi-demo/
+  .gitignore
+  .python-version
   README.md
   main.py
   pyproject.toml
 ```
+
+Depending on your `uv` version and options, `uv init` may create extra helper
+files. `.python-version` records the Python version selected for the project,
+and `.gitignore` tells Git which generated files should stay out of commits.
 
 For application work, use a package-style layout:
 
@@ -91,6 +97,12 @@ stores package metadata, dependencies, build configuration, and tool settings.
 
 `uv.lock` is created when `uv` resolves dependencies. Commit this file so local
 development and CI use the same dependency versions.
+
+`.python-version` helps local tools select the intended Python version for the
+project.
+
+`.gitignore` keeps generated files such as virtual environments, caches, and
+build output out of version control.
 
 `src/fastapi_demo/main.py` contains the FastAPI application code.
 
