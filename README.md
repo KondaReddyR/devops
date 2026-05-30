@@ -30,6 +30,10 @@ The local OpenShift login was verified on 2026-05-29.
 book/
   SUMMARY.md
   chapters/
+docs/
+  tutorials/
+  github-issues/
+  review-prompts/
 progress/
   status.md
 skills/
@@ -65,6 +69,7 @@ flowchart LR
 3. Read [agent.md](agent.md) before asking an AI agent to continue work in this repository.
 4. Use [slides/index.html](slides/index.html) to review the topic decks.
 5. Use [skills/README.md](skills/README.md) for repeatable operational activities.
+6. Follow [docs/tutorials/fastapi-uv-python-project.md](docs/tutorials/fastapi-uv-python-project.md) to create the first FastAPI project with `uv`.
 
 ## Suggested First Cluster Projects
 
@@ -74,4 +79,3 @@ oc new-project data-devops-gitops
 oc new-project data-devops-observability
 oc new-project data-devops-vault
 ```
-
